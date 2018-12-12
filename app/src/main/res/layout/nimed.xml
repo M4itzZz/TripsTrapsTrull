@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Mängija 1"
+        android:textSize="50px"
+        />
+
+    <EditText
+        android:id="@+id/mängija1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Sisestage nimi"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mängija1"
+        android:layout_marginTop="50dp"
+        android:text="Mängija 2"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/mängija2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Sisestage nimi"
+        />
+    <Button
+        android:id="@+id/jätka"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jätka!"
+        android:textSize="40px"
+        android:onClick="jätka"
+        />
+
+</LinearLayout>
